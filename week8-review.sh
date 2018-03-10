@@ -33,7 +33,7 @@ cd /dev
 ls
 echo "\nWhat is the device you wish to have information about:\n "
 read DEV1
-fdisk -l /dev/${DEV1}
+sudo fdisk -l /dev/${DEV1}
 
 #Week5
 echo "\nprint the kernal parameters and locate grub and print out all file in grub"
